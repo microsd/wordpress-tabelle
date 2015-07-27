@@ -6,5 +6,7 @@ Wie erstellt man in Wordpress mehrspaltige Tabelle, die auch auf dem Handy gut a
 
 Per Maus kann man dann die entsprechende Tabellengröße auswählen und bequem die einzelnen Felder per Maus ausfüllen. Wechselt man in den Text-Modus, kann jeder Eintrag zwischen den td-Tags bearbeitet werden.
 Ein Hauptproblem bleibt jedoch: die Tabelle bricht nicht spaltenweise um, wie es für Tablets oder Smartphones sinnvoll wäre. Hierzu habe ich zwei Varianten realisiert.
+
 1. Mittels Media-Queries und einem Custom-CSS PLugin einen spaltenweisen Umbruch realisieren, indem man zwei Tabellen pro Seite einfügt. Die erste Tabelle ist für breite Screens, die zweite Tabelle für schmale Screens. Per Media-Queries wird eine Tabelle angezeigt, die andere ausgeblendet, je nach Bildschirmbreite. Der Nachteil an dieser Lösung ist die Code-Dopplung auf der Wordpress-Seite. Man muss für jede Tabelle zwei Versionen pflegen.
+
 2. Der einfachste Weg ist direkt nur auf die schmale Tabelle zu setzen. Dies hat außerdem den Vorteil, dass nur die wichtigste Information gezeigt wird und man unnütze Spalten gleich weglässt.
