@@ -1,5 +1,5 @@
 # wordpress-tabelle
-Wordpress Tabelle für Empfehlungen / Test / Vergleich: ![Webseite](http://microsd.github.io/wordpress-tabelle/)
+Wordpress Tabelle für Empfehlungen / Test / Vergleich: [Webseite](http://microsd.github.io/wordpress-tabelle/)
 
 Wie erstellt man in Wordpress mehrspaltige Tabelle, die auch auf dem Handy gut aussehen? Ein Beispiel für eine solche Tabelle ist [hier](http://www.micro-sd.net/micro-sd-128gb/) bzw. [hier](http://www.micro-sd.net/micro-sd-64gb/) exemplarisch für einen Vergleich von micro sd karten. Ich habe dort viel ausprobiert, jedoch stellt sich dieses Vorhaben als äußerst schwierig in Wordpress dar. Wie erstellt man nun eine Tabelle in Wordpress? Ich empfehle hier das Plugin TinyMCE: ![TinyMCE](https://raw.githubusercontent.com/microsd/wordpress-tabelle/master/images/tinymce.jpg) Nach der Installation über Wordpress erscheinen im Editor von Posts bzw. Pages zusätzliche Icons. Unter anderem ist dort auch ein Icon zum Erstellen einer Tabelle.
 ![Tabelle erstellen](https://raw.githubusercontent.com/microsd/wordpress-tabelle/master/images/tabelle.jpg)
