@@ -1,37 +1,37 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <title>Wordpress-tabelle by microsd</title>
+    <meta name="description" content="Wordpress-tabelle : Wordpress Tabelle für Empfehlungen / Test / Vergleich">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Wordpress-tabelle</title>
   </head>
 
   <body>
-    <div id="container">
-      <div class="inner">
 
-        <header>
-          <h1>Wordpress-tabelle</h1>
-          <h2>Wordpress Tabelle für Empfehlungen / Test / Vergleich</h2>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/microsd/wordpress-tabelle">View on GitHub</a>
+
+          <h1 id="project_title">Wordpress-tabelle</h1>
+          <h2 id="project_tagline">Wordpress Tabelle für Empfehlungen / Test / Vergleich</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/microsd/wordpress-tabelle/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/microsd/wordpress-tabelle/tarball/master">Download this project as a tar.gz file</a>
+            </section>
         </header>
+    </div>
 
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/microsd/wordpress-tabelle/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
-          <a href="https://github.com/microsd/wordpress-tabelle/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
-          <a href="https://github.com/microsd/wordpress-tabelle" id="view-on-github" class="button"><span>View on GitHub</span></a>
-        </section>
-
-        <hr>
-
-        <section id="main_content">
-          <p>Wie erstellt man in Wordpress mehrspaltige Tabelle, die auch auf dem Handy gut aussehen? Ein Beispiel für eine solche Tabelle ist <a href="http://www.micro-sd.net/micro-sd-128gb/">hier</a> bzw. <a href="http://www.micro-sd.net/micro-sd-64gb/">hier</a> exemplarisch für einen Vergleich von micro sd karten. Ich habe dort viel ausprobiert, jedoch stellt sich dieses Vorhaben als äußerst schwierig in Wordpress dar. Wie erstellt man nun eine Tabelle in Wordpress? Ich empfehle hier das Plugin TinyMCE: <img src="https://raw.githubusercontent.com/microsd/wordpress-tabelle/master/images/tinymce.jpg" alt="TinyMCE"> Nach der Installation über Wordpress erscheinen im Editor von Posts bzw. Pages zusätzliche Icons. Unter anderem ist dort auch ein Icon zum Erstellen einer Tabelle.
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>Wie erstellt man in Wordpress mehrspaltige Tabelle, die auch auf dem Handy gut aussehen? Ein Beispiel für eine solche Tabelle ist <a href="http://www.micro-sd.net/micro-sd-128gb/">hier</a> bzw. <a href="http://www.micro-sd.net/micro-sd-64gb/">hier</a> exemplarisch für einen Vergleich von micro sd karten. Ich habe dort viel ausprobiert, jedoch stellt sich dieses Vorhaben als äußerst schwierig in Wordpress dar. Wie erstellt man nun eine Tabelle in Wordpress? Ich empfehle hier das Plugin TinyMCE: <img src="https://raw.githubusercontent.com/microsd/wordpress-tabelle/master/images/tinymce.jpg" alt="TinyMCE"> Nach der Installation über Wordpress erscheinen im Editor von Posts bzw. Pages zusätzliche Icons. Unter anderem ist dort auch ein Icon zum Erstellen einer Tabelle.
 <img src="https://raw.githubusercontent.com/microsd/wordpress-tabelle/master/images/tabelle.jpg" alt="Tabelle erstellen"></p>
 
 <p>Per Maus kann man dann die entsprechende Tabellengröße auswählen und bequem die einzelnen Felder per Maus ausfüllen. Wechselt man in den Text-Modus, kann jeder Eintrag zwischen den td-Tags bearbeitet werden.
@@ -39,17 +39,21 @@ Ein Hauptproblem bleibt jedoch: die Tabelle bricht nicht spaltenweise um, wie es
 
 <ol>
 <li><p>Mittels Media-Queries und einem Custom-CSS Plugin einen spaltenweisen Umbruch realisieren, indem man zwei Tabellen pro Seite einfügt. Die erste Tabelle ist für breite Screens, die zweite Tabelle für schmale Screens. Per Media-Queries wird eine Tabelle angezeigt, die andere ausgeblendet, je nach Bildschirmbreite. Der Nachteil an dieser Lösung ist die Code-Dopplung auf der Wordpress-Seite. Man muss für jede Tabelle zwei Versionen pflegen.</p></li>
-<li><p>Der einfachste Weg ist direkt nur auf die schmale Tabelle zu setzen. Dies hat außerdem den Vorteil, dass nur die wichtigste Information gezeigt wird und man unnütze Spalten gleich weglässt.</p></li>
+<li><p>Der einfachste Weg ist direkt nur auf die schmale Tabelle zu setzen. Dies hat außerdem den Vorteil, dass nur die wichtigste Information gezeigt wird und man unnütze Spalten gleich weglässt.
+(<a href="http://www.oszilloskope.net">http://www.oszilloskope.net</a>)</p></li>
 </ol>
-        </section>
-
-        <footer>
-          Wordpress-tabelle is maintained by <a href="https://github.com/microsd">microsd</a><br>
-          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
-        </footer>
-
-        
-      </div>
+      </section>
     </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Wordpress-tabelle maintained by <a href="https://github.com/microsd">microsd</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
   </body>
 </html>
