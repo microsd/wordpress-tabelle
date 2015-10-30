@@ -10,3 +10,4 @@ Ein Hauptproblem bleibt jedoch: die Tabelle bricht nicht spaltenweise um, wie es
 1. Mittels Media-Queries und einem Custom-CSS Plugin einen spaltenweisen Umbruch realisieren, indem man zwei Tabellen pro Seite einfügt. Die erste Tabelle ist für breite Screens, die zweite Tabelle für schmale Screens. Per Media-Queries wird eine Tabelle angezeigt, die andere ausgeblendet, je nach Bildschirmbreite. Der Nachteil an dieser Lösung ist die Code-Dopplung auf der Wordpress-Seite. Man muss für jede Tabelle zwei Versionen pflegen.
 
 2. Der einfachste Weg ist direkt nur auf die schmale Tabelle zu setzen. Dies hat außerdem den Vorteil, dass nur die wichtigste Information gezeigt wird und man unnütze Spalten gleich weglässt.
+3. (http://www.oszilloskope.net)
